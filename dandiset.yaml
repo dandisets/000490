@@ -2,15 +2,33 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000490
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 780016
+  numberOfFiles: 4
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
-citation: Dewberry, Savannah (2023) test set (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000490/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectrodeGroup
+citation: Dewberry, Savannah; Ezeh, Cynthia (2023) test set (Version draft) [Data
+  set]. DANDI archive. https://dandiarchive.org/dandiset/000490/draft
 contributor:
 - affiliation: []
   email: ls.dewberry@ufl.edu
@@ -19,19 +37,31 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation: []
+  email: cynthia.ezeh@ufl.edu
+  includeInCitation: true
+  name: Ezeh, Cynthia
+  roleName: []
+  schemaKey: Person
 dateCreated: '2023-04-25T19:03:56.450613+00:00'
 description: 'will not upload
 
   just testing something'
+ethicsApproval: []
 id: DANDI:000490/draft
 identifier: DANDI:000490
+keywords: []
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000490/versions/draft/assets/
 name: test set
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000490/draft
 version: draft
+wasGeneratedBy: []
