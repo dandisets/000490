@@ -7,26 +7,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 780016
-  numberOfFiles: 4
-  numberOfSubjects: 2
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
-    name: Rattus norvegicus - Norway rat
-    schemaKey: SpeciesType
-  variableMeasured:
-  - ElectrodeGroup
 citation: Dewberry, Savannah; Ezeh, Cynthia (2023) test set (Version draft) [Data
   set]. DANDI archive. https://dandiarchive.org/dandiset/000490/draft
 contributor:
